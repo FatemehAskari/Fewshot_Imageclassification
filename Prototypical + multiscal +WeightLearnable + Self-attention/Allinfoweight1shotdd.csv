@@ -1,0 +1,2 @@
+weight1,weight2,weight3,weight4,weight5,weight_change1,weight_change2,weight_change3,weight_change4,weight_change5,accuracy_before_train,accuracy_after_train_true,accuracy_after_train_false
+1.0,1.1,1.2,1.3,1.4,0.637086033821106,0.9286110997200012,1.0890218019485474,1.2301075458526611,1.3726513385772705,55.98,39.72,40.54
