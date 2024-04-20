@@ -3,6 +3,13 @@ Implementation of a Few-Shot Image Classification Model based on the Prototypica
 
 ## Table of Contents
 
+1. [Project Description](#project-description)
+2. [Model](#model)
+3. [How to run](#how-to-run)
+4. [Results](#results)
+5. [Refrences](#refrences)
+
+
 ## Project Description
 
 In this project, we propose an enhanced model for few-shot image classification based on the Prototypical model. Our main objective is to improve the accuracy of the model through various techniques such as modifying the backbone architecture, employing multiple embedding spaces, assigning weight parameters to each output vector, and incorporating self-attention mechanisms.
@@ -79,3 +86,9 @@ python train.py --max-epoch 200 --save-epoch 20 --shot 1 --query 10 --train-way 
 |     InCorrect   |     ![InCorrect 1-shot](assets/InCorrectPredict1.png)    |    ![InCorrect 5-shot](assets/InCorrectPredict5.png)     |
 
 ## Refrences
+
+https://github.com/sicara/easy-few-shot-learning
+
+https://github.com/heykeetae/Self-Attention-GAN
+
+https://github.com/yinboc/prototypical-network-pytorch
