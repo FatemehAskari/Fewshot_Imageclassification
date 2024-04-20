@@ -27,8 +27,25 @@ The mapper architecture is as follows:
 ![Architecture of mapper](assets/Mapper.png)
 
 You can study the model in more detail from this [PDF](finalreport.pdf).
+
 ## How to run
 
+I have organized the code step by step as follows:
+1. If you only want to run the Prototypical network model [[This folder]](JustPrototypical)
+2. Code for implementing the MultiScale approach to the Prototypical model [[This folder]](Prototypical+multiscale)
+3. Code for assigning weights to each stage [[This folder]](Prototypical+multiscal+WeightLearnable)
+4. The code for the final model [[This folder]](Prototypical+multiscal+WeightLearnable+Self-attention)
+
+
+For the 5-way 5-shot:
+```bash
+python train.py --max-epoch 200 --save-epoch 20 --shot 5 --query 10 --train-way 30 --test-way 5 --save-path ./save/proto-5-change --gpu 0
+```
+
+For the 5-way 1-shot:
+```bash
+python train.py --max-epoch 200 --save-epoch 20 --shot 1 --query 10 --train-way 20 --test-way 5 --save-path ./save/proto-1-change --gpu 0
+```
 ## Results
 
 ## Refrences
