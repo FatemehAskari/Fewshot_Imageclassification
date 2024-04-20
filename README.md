@@ -48,4 +48,11 @@ python train.py --max-epoch 200 --save-epoch 20 --shot 1 --query 10 --train-way 
 ```
 ## Results
 
+|        | 1-shot 5 way| 5-shot 5 way|
+| ------ | ------| -----|
+| baseline | 62.67 |82.06 |
+| Baseline + multiscale |  63.64 | 83.02 |
+| Baseline + weighted multisca              |65.14| 83.5 |
+| Baseline + weighted multiscale + attention| 64.46 | 84.42 |
+
 ## Refrences
