@@ -22,6 +22,9 @@ The final model architecture is as follows:
 
 ![Architecture of model](assets/Finalmodel.png)
 
+The mapper architecture is as follows:
+
+![Architecture of mapper](assets/Mapper.png)
 ## How to run
 
 ## Results
