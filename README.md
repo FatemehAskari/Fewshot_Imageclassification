@@ -25,6 +25,8 @@ The final model architecture is as follows:
 The mapper architecture is as follows:
 
 ![Architecture of mapper](assets/Mapper.png)
+
+You can study the model in more detail from this [PDF](finalreport.pdf).
 ## How to run
 
 ## Results
