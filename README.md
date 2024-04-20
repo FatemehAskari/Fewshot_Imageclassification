@@ -48,11 +48,29 @@ python train.py --max-epoch 200 --save-epoch 20 --shot 1 --query 10 --train-way 
 ```
 ## Results
 
+### Step-by-Step Results
 |        | 1-shot 5 way| 5-shot 5 way|
 | ------ | ------| -----|
 | baseline | 62.67 |82.06 |
 | Baseline + multiscale |  63.64 | 83.02 |
 | Baseline + weighted multisca              |65.14| 83.5 |
 | Baseline + weighted multiscale + attention| 64.46 | 84.42 |
+
+### Comparison with Other Models
+
+|        | 1-shot 5 way| 5-shot 5 way|
+| ------ | ------| -----|
+| AdaResNet | 56.88 | 71.94 |
+| TADAM | 58.50 | 76.70 |
+| MetaOptNet | 62.64 | 78.63 |
+| Neg-Margin | 63.85 | 81.57 |
+| MixtFSL | 63.98 | 82.04 |
+| Meta-Baseline | 63.17 | 79.26 |
+| Distill | 64.82 | 82.14 |
+| ProtoNet | 62.39 | 80.53 |
+| Set Feat | 68.32 | 82.71 |
+| Our model | 64.46 | 84.42 |
+
+### Examples of Correct and Incorrect Predictions
 
 ## Refrences
