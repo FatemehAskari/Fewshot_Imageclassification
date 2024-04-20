@@ -73,4 +73,9 @@ python train.py --max-epoch 200 --save-epoch 20 --shot 1 --query 10 --train-way 
 
 ### Examples of Correct and Incorrect Predictions
 
+|        |   1-shot 5 way   |    5-shot 5 way   |
+| ----------- | ----------- | ----------- |
+|    Correct   |    ![Correct 1-shot](assets/CorrectPredict1.png)    |   ![Correct 5-shot](assets/CorrectPredict5.png)   |
+|     InCorrect   |     ![InCorrect 1-shot](assets/InCorrectPredict1.png)    |    ![InCorrect 5-shot](assets/InCorrectPredict5.png)     |
+
 ## Refrences
